@@ -17,7 +17,7 @@ class HelpCommand(commands.Cog):
         embed.add_field(name="`/top10`", value="Show the top 10 players by playing time for a specific game.", inline=False)
         embed.add_field(name="`/mystats`", value="Show your stats for all games.", inline=False)
 
-        embed.set_footer(text="raffy.exe // serg2")
+        embed.set_footer(text="raffy.exe //     serg2")
         embed.set_thumbnail(url="https://cdn.discordapp.com/avatars/1071866332569673858/a677b425cc3be6a96ebb1ad4de68d2c1.webp")
 
         embed1 = disnake.Embed(title="Important Note:", color=disnake.Color.red())
